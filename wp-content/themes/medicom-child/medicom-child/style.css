@@ -1,0 +1,387 @@
+/*
+Theme Name: Medicom Theme Child
+Theme URI: http://www.bliccathemes.com/medicom
+Description: Medicom Child Theme
+Author: Blicca Theme 
+Author URI: http://themeforest.net/user/bliccathemes
+Template: medicom
+Tags: blue, white, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 2.0.2
+*/
+
+/*
+Start adding your own custom CSS rules.
+*/
+
+.bigP strong {
+    color: #0A7FB8;
+}
+
+h2[id]:before {
+    display: block;
+    content: " ";
+    margin-top: -110px;
+    height: 110px;
+    visibility: hidden;
+}
+
+.medicom-team.nosocial .team-thumb {
+    position: relative;
+    border: 5px solid rgb(37, 150, 207);
+}
+
+.team-fix {
+    margin-top: -13px!important;
+}
+
+/* Full Alt 1 */
+    .fullstylealt{background:#2B96CC;padding-top: 10px;}
+    .fullstylealt h3{font-size: 30px;font-weight:600; color: white;}
+    .fullstylealt p{font-size: 18px;margin-bottom:25px;}
+    .fullstylealt i {font-size:50px; color:#fff;}
+
+/* Full Alt 2 */
+    .fullstylealt2{background:#2B96CC;padding-top: 10px; padding-bottom:207px;}
+    .fullstylealt2 h3{font-size: 30px;font-weight:600; color: white;}
+    .fullstylealt2 p{font-size: 18px;margin-bottom:25px;}
+    .fullstylealt2 i {font-size:50px; color:#fff;}
+
+/* Full Alt 1 */
+    .fullstyle2alt{padding-top: 10px;}
+    .fullstyle2alt h3{font-size: 30px;font-weight:600; color: white;}
+    .fullstyle2alt p{font-size: 18px;margin-bottom:25px;}
+    .fullstyle2alt i {font-size:50px; color:#393939;}
+
+.medicom-table .back-gift {
+    background: #B44368;
+}
+
+/*****************************/
+/*   Layer Slider Button     */
+/*****************************/
+.layersliderbutton-alt{
+    background:none;
+    padding:8px 23px;
+    border: 1px solid #2B96CC;
+    font-size:14px; color: #2B96CC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.layersliderbutton-alt:hover{
+    background: #2B96CC;
+    color: #FFFFFF;
+}
+.ls-bottom-slidebuttons { 
+    display: block !important; 
+    text-align: center; }
+
+
+.fullstyle2 {
+    padding-bottom: 80px;
+}
+
+.fullstyle2 p {
+    font-size: 18px!important;
+    margin-bottom:25px;
+}
+
+/*****************************/
+/*   New Menu Style     */
+/*****************************/
+
+body.admin-bar .is-sticky .medicom-header {
+    top: 20px !important;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+body.admin-bar .sticker-wrapper .medicom-header {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #2b96cc;
+    background-color: #FFFFFF;
+}
+
+.header-2 .dropdown-menu {
+    border-top: 0px solid #2b96cc!important;
+}
+
+.navbar-nav>li>.dropdown-menu li:hover {
+    background: rgba(189, 189, 189, 0.1);
+}
+
+.navbar-default .navbar-nav>li.firstitem.current-menu-item>a, .navbar-default .navbar-nav>li.firstitem.current-menu-parent>a {
+    color: #2B96CC!important;
+     background-color: #ffffff!important; 
+}
+
+.medicom-header {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.contact-widget a {
+    webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.contact-widget a:hover {
+    color: #2b96cc;
+}
+
+/* QUICK NAV link fix */
+
+.footer-widget ul li:before {
+    content: "\f0da"!important;
+    font-family: FontAwesome!important;
+    font-size: 12px!important;
+    margin-right: 8px!important;
+}
+
+/* Alex's awesome custom tactical sidebar */
+
+/* SIDEBAR
+**************************************************/
+/* sidebar button */
+.tactile-sidebar-button {
+    position:fixed;
+    right:20px;
+    z-index:9999999999;
+    width:25px;
+    height:40px;
+    cursor:pointer;
+    width: 100%;
+    
+    -webkit-transition:opacity .2s ease .2s, top 0s ease .2s;
+    -moz-transition:opacity .2s ease .2s, top 0s ease .2s;
+    -ms-transition:opacity .2s ease .2s, top 0s ease .2s;
+    transition:opacity .2s ease .2s, top 0s ease .2s;
+}
+.tactile-sidebar-button i {
+    width:20px;
+    height:20px;
+    margin:35px 0 -1px 5px;
+    cursor: pointer;
+    display:inline-block; /* chrome-fix */
+    fill:#626262;
+
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    
+    -webkit-transition:all .25s ease;
+    -moz-transition:all .25s ease;
+    -ms-transition:all .25s ease;
+    transition:all .25s ease;
+}
+
+.tactile-sidebar-button i:hover {
+    color: #2b96cc;
+
+}
+
+.tactile-sidebar-button-active { position:fixed !important; }
+.tactile-sidebar-button-active i {
+    fill:#BBBCBD;
+    
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+/* sidebar bouncy slide animation */
+@-webkit-keyframes tactile-sidebar {
+    20% { -webkit-transform:translateX(11px); }
+    40% { -webkit-transform:translateX(-7px); }
+    60% { -webkit-transform:translateX(4px); }
+    80% { -webkit-transform:translateX(-2px); }
+    100% { -webkit-transform:translateX(0); }
+}
+@keyframes tactile-sidebar {
+    20% { transform:translateX(11px); }
+    40% { transform:translateX(-7px); }
+    60% { transform:translateX(4px); }
+    80% { transform:translateX(-2px); }
+    100% { transform:translateX(0); }
+}
+/* sidebar slide */
+.tactile-sidebar-wrapper {
+    position:fixed;
+    z-index:999999999;
+    top:0;
+    width:225px;
+    overflow:hidden;
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display:block;
+    color:#767676;
+
+    -webkit-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.75);
+
+    /* smooth scroll on iOS */
+    -webkit-overflow-scrolling:touch;
+    overflow:auto;
+    
+    right:-285px;
+
+    -webkit-transition:all .35s ease;
+    -moz-transition:all .35s ease;
+    transition:all .35s ease;
+}
+.tactile-sidebar-wrapper-active {
+    right:-20px;
+
+    -webkit-animation-name:tactile-sidebar;
+    animation-name:tactile-sidebar;
+    
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    
+    -webkit-animation-timing-function:ease-in-out;
+    animation-timing-function:ease-in-out;
+    
+    -webkit-animation-iteration-count:1;
+    animation-iteration-count:1;
+}
+
+/* content wrapper */
+.tactile-sidebar-content-wrapper {
+    display:table;
+    height:100%;
+    margin:0 20px 0 10px;
+}
+/* content inner */
+.tactile-sidebar-content-inner {
+    display:table-cell;
+    vertical-align:top;
+    padding:95px 0 20px 0;
+}
+/* give images/videos/embeds max width */
+.tactile-sidebar-content-inner img,
+.tactile-sidebar-content-inner iframe,
+.tactile-sidebar-content-inner object,
+.tactile-sidebarcontent-inner embed { max-width:100%; height:auto; }
+/* sidebar background overlay */
+.tactile-sidebar-background-overlay {
+    position:fixed;
+    z-index:99999999;
+    top:-1000%;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    opacity:0;
+    
+    -webkit-transition:top 0s ease .35s, opacity .35s ease;
+    -moz-transition:top 0s ease .35s, opacity .35s ease;
+    -ms-transition:top 0s ease .35s, opacity .35s ease;
+    transition:top 0s ease .35s, opacity .35s ease;
+}
+.tactile-sidebar-background-overlay-active {
+    top:0;
+    opacity:.3;
+    
+    -webkit-transition:top 0s ease 0s, opacity .35s ease;
+    -moz-transition:top 0s ease 0s, opacity .35s ease;
+    -ms-transition:top 0s ease 0s, opacity .35s ease;
+    transition:top 0s ease 0s, opacity .35s ease;
+}
+
+/* LANDING PAGES */
+
+.landing-info {
+    text-align: center;
+}
+
+.landing-phone {
+	color: white;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.landing-phone:hover, .landing-phone:focus {
+     color: white!important;
+     text-decoration: none!important;
+     outline: none!important;
+     outline-offset: 0px!important;
+}
+
+.wp-gr.wpac {
+  text-align: center !important;
+}
+
+.landing-prices {
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+    margin-bottom: 3rem;
+    -webkit-box-shadow: rgba(0,0,0,.2) 0 2px 4px 0;
+    -moz-box-shadow: rgba(0,0,0,.2) 0 2px 4px 0;
+    box-shadow: rgba(0,0,0,.2) 0 2px 4px 0;
+}
+
+.landing-prices-info {
+    font-size: 16px;
+    color: #444!important;
+}
+
+.landing-prices-membership {
+    font-size: 16px;
+    color: #444!important;
+    margin-top: 6%;
+}
+
+.landing-prices-info-footer {
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.867;
+    color: #69717A;
+}
+
+.landing-prices-hours {
+     text-align: center;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444!important;
+}
+
+.landing-prices-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #DEDEDE;
+    border: 0;
+    height: 1px;
+}
+
+@media (max-width: 1400px) {
+.tactile-sidebar-button {
+    display: none;
+}
+    }
+
+@media (max-width: 700px) {
+.mpfy-mll-l-categories {
+    display: none!important;
+}
+    }
